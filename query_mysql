@@ -34,9 +34,9 @@ UPDATE kf_tabel_analisa
 Set presentase_gross_laba =
 Case
 WHEN actual_price<=50000 Then 0.1 
-When actual_price BETWEEN 50000 AND 100000 Then 0.15
-When actual_price BETWEEN 100000 AND 300000 Then 0.2
-When actual_price BETWEEN 300000 AND 500000 Then 0.25 
+WHEN actual_price BETWEEN 50000 AND 100000 Then 0.15
+WHEN actual_price BETWEEN 100000 AND 300000 Then 0.2
+WHEN actual_price BETWEEN 300000 AND 500000 Then 0.25 
 When actual_price>500000 Then 0.3 
 End;
 
