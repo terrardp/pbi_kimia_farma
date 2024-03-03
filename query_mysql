@@ -1,0 +1,44 @@
+-- Import Data --
+
+-- Create Table from Data Imported --
+CREATE TABLE kf_tabel_analisa AS
+SELECT  ft.transaction_id,
+        ft.date,
+        kc.branch_id,
+        kc.branch_name,
+        kc.kota,
+        kc.provinsi,
+        kc.rating AS rating_cabang,
+        ft.customer_name,
+        inv.product_id,
+	inv.product_name,
+	ft.price AS actual_price,
+	ft.discount_percentage,
+	ft.rating AS rating_transaksi
+FROM kf_final_transaction AS ft
+JOIN kf_kantor_cabang AS kc
+  ON ft.branch_id = kc.branch_id
+JOIN kf_product AS inv
+  ON ft.product_id = inv.product_id;
+
+-- Add Aggregate Column --
+ALTER TABLE kf_tabel_analisa
+ADD COLUMN  presentase_gross_laba DEC (5,2),
+ADD COLUMN  nett_sales INT,
+ADD COLUMN  nett_profit INT;
+
+UPDATE kf_tabel_analisa
+SET nett_sales = actual_price-(actual_price*discount_percentage);
+
+UPDATE kf_tabel_analisa
+Set presentase_gross_laba =
+Case
+WHEN actual_price<=50000 Then 0.1 
+When actual_price BETWEEN 50000 AND 100000 Then 0.15
+When actual_price BETWEEN 100000 AND 300000 Then 0.2
+When actual_price BETWEEN 300000 AND 500000 Then 0.25 
+When actual_price>500000 Then 0.3 
+End;
+
+UPDATE kf_tabel_analisa
+SET nett_profit = nett_sales-(actual_price-(actual_price*presentase_gross_laba));
