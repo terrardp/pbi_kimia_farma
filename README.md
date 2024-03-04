@@ -11,3 +11,13 @@ Final Task Project ini ditujukan untuk lebih memahami pekerjaan seorang Data Ana
 Dikarenakan size file csv yang didapatkan cukup besar, sehingga import file dilakukan melalui Dbeaver yang terintegrasi dengan MySQL.
 
 ![image](https://github.com/terrardp/pbi_kimia_farma/assets/162034095/2baa3675-b5f5-4f04-8f39-e0ed81e9c8cd)
+
+**2.Tabel Analisa**
+
+1. Menggabungkan beberapa kolom dari table yang berbeda menjadi satu table Analisa menggunakan syntax:
+
+![image](https://github.com/terrardp/pbi_kimia_farma/assets/162034095/2f33ac17-dfae-470b-98af-9f0693e702bc)
+
+2. Menambahkan kolom baru untuk analisa menggunakan synntax:
+
+![image](https://github.com/terrardp/pbi_kimia_farma/assets/162034095/0f60f143-6ce7-4eff-936b-c2a61844d018)
