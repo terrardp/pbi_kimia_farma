@@ -28,3 +28,7 @@ Mengupdate isi kolom analisa menggunakan syntax:
 
 ![image](https://github.com/terrardp/pbi_kimia_farma/assets/162034095/78cc8f18-680a-4413-b7ce-f41fbd086633)
 
+Berikut hasil query:
+
+![image](https://github.com/terrardp/pbi_kimia_farma/assets/162034095/7ace924a-3517-429d-adbe-ec389d0b5d00)
+
