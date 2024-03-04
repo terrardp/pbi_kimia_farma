@@ -32,3 +32,12 @@ Berikut hasil query:
 
 ![image](https://github.com/terrardp/pbi_kimia_farma/assets/162034095/7ace924a-3517-429d-adbe-ec389d0b5d00)
 
+**4. Dashboard  Performance Analytics**
+
+Membuat dashboard hasil analisa menggunakan Looker Studio Google dengan mengimpor data csv hasil analisa MySQL
+
+![image](https://github.com/terrardp/pbi_kimia_farma/assets/162034095/f2742dc4-f620-4087-b553-8c8286365a73)
+
+Berikut link looker studio https://lookerstudio.google.com/s/iTzaV53fD1I
+
+**Thank You**
