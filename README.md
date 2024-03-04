@@ -21,3 +21,10 @@ Dikarenakan size file csv yang didapatkan cukup besar, sehingga import file dila
 2. Menambahkan kolom baru untuk analisa menggunakan synntax:
 
 ![image](https://github.com/terrardp/pbi_kimia_farma/assets/162034095/0f60f143-6ce7-4eff-936b-c2a61844d018)
+
+**3. MySQL Syntax**
+
+Mengupdate isi kolom analisa menggunakan syntax:
+
+![image](https://github.com/terrardp/pbi_kimia_farma/assets/162034095/78cc8f18-680a-4413-b7ce-f41fbd086633)
+
