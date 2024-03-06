@@ -30,7 +30,9 @@ Mengupdate isi kolom analisa menggunakan syntax:
 
 Berikut hasil query:
 
-![image](https://github.com/terrardp/pbi_kimia_farma/assets/162034095/7ace924a-3517-429d-adbe-ec389d0b5d00)
+<img width="784" alt="Screenshot 2024-03-03 212019" src="https://github.com/terrardp/pbi_kimia_farma/assets/162034095/9bd66b16-e85d-49b4-a5ba-f1cc0885ac92">
+
+<img width="823" alt="image" src="https://github.com/terrardp/pbi_kimia_farma/assets/162034095/801be42b-4a2c-40c6-a802-9e4814444993">
 
 **4. Dashboard  Performance Analytics**
 
