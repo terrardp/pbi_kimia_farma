@@ -38,7 +38,7 @@ Berikut hasil query:
 
 Membuat dashboard hasil analisa menggunakan Looker Studio Google dengan mengimpor data csv hasil analisa MySQL
 
-![image](https://github.com/terrardp/pbi_kimia_farma/assets/162034095/f2742dc4-f620-4087-b553-8c8286365a73)
+<img width="960" alt="image" src="https://github.com/terrardp/pbi_kimia_farma/assets/162034095/93686414-959d-4def-8482-d0294e9a9f8f">
 
 Berikut link looker studio https://lookerstudio.google.com/s/iTzaV53fD1I
 
